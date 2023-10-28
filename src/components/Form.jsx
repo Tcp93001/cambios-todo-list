@@ -1,7 +1,9 @@
+import '../styles/Form.css'
+
 const Form = () => {
   return (
-    <form>
-      <input placeholder="Capture la tarea a ejecutar" />
+    <form className="form-style">
+      <input className="add-task" placeholder="Capture la tarea a ejecutar" />
       <button>Agregar Tarea</button>
     </form>
   )

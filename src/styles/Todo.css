@@ -1,0 +1,18 @@
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.dim-completed {
+  opacity: 0.4;
+}
+
+.list-item {
+  margin: 0 15px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
